@@ -1,0 +1,14 @@
+{
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "name": "Fire Damage",
+        "operation": "multiply_total_additive",
+        "id": "phoenix:fire_damage",
+        "amount": -1.0
+    },
+    "damage_condition": {
+        "type": "origins:in_tag",
+        "tag": "primal:mild_fire"
+    },
+    "hidden":true
+}

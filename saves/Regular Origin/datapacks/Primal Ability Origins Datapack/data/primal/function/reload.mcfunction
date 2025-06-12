@@ -25,5 +25,8 @@ scoreboard objectives add mogglePomHoly dummy
 #Odin
 scoreboard objectives add odinZanCharge dummy
 
+#Phoenix
+scoreboard objectives add phoenixRevelation dummy
+
 schedule function primal:mainhalfsec 10t
 schedule function primal:mainsec 20t

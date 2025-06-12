@@ -22,3 +22,9 @@ execute as @e[scores={shivaFrozen=1..},type=!#primal:nalive] run function primal
 execute as @a[scores={shivaFlight=1..}] run function primal:shiva/flight/dur
 
 #Moggle King
+
+#Odin
+
+#Phoenix
+execute as @a[predicate=primal:is_phoenix] at @s run function primal:phoenix/fountain_of_fire/0
+execute as @e[type=area_effect_cloud,name="phoenixCircle"] at @s run function primal:phoenix/revelation/2_dur

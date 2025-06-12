@@ -1,0 +1,145 @@
+{
+    "name": "Flames of Rebirth",
+    "description": "You can consume Blaze Rods inplace of Totems of Undying",
+    "type": "origins:multiple",
+    "prevent_dying_mainhand": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "id": "minecraft:regeneration",
+                            "duration": 450,
+                            "amplifier": 1,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "id": "minecraft:fire_resistance",
+                            "duration": 400,
+                            "amplifier": 2,
+                            "show_particles": false,
+                            "show_icon": false
+                        },
+                        {
+                            "id": "minecraft:absorption",
+                            "duration": 50,
+                            "amplifier": 1,
+                            "show_particles": false,
+                            "show_icon": false
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "mainhand",
+                    "action": {
+                        "type": "origins:consume",
+                        "amount": 1
+                    }
+                },
+                {
+                    "type": "origins:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:totem_of_undying"
+                    },
+                    "count": 16,
+                    "speed": 0,
+                    "force": true,
+                    "spread": {
+                        "x": 1,
+                        "y": 2,
+                        "z": 1
+                    }
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:item.totem.use"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:blaze_rod"
+                }
+            }
+        }
+    },
+    "prevent_dying_offhand": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "id": "minecraft:regeneration",
+                            "duration": 450,
+                            "amplifier": 1,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "id": "minecraft:fire_resistance",
+                            "duration": 400,
+                            "amplifier": 2,
+                            "show_particles": false,
+                            "show_icon": false
+                        },
+                        {
+                            "id": "minecraft:absorption",
+                            "duration": 50,
+                            "amplifier": 1,
+                            "show_particles": false,
+                            "show_icon": false
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "offhand",
+                    "action": {
+                        "type": "origins:consume",
+                        "amount": 1
+                    }
+                },
+                {
+                    "type": "origins:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:totem_of_undying"
+                    },
+                    "count": 16,
+                    "speed": 0,
+                    "force": true,
+                    "spread": {
+                        "x": 1,
+                        "y": 2,
+                        "z": 1
+                    }
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:item.totem.use"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:blaze_rod"
+                }
+            }
+        }
+    }
+}

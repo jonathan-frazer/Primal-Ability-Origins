@@ -1,0 +1,1 @@
+execute unless score @s phoenixRevelation matches 1.. run function primal:phoenix/revelation/0

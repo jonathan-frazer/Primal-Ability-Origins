@@ -1,0 +1,14 @@
+{
+    "name": "Fountain of Fire",
+    "description": "Burn up all projectiles launched at you, melee hits on you, light the attacker on fire.",
+    "type": "origins:attacker_action_when_hit",
+    "entity_action": {
+        "type": "origins:set_on_fire",
+        "duration": 5
+    },
+    "damage_condition": {
+        "type": "origins:projectile",
+        "inverted": true
+    },
+    "cooldown": 1
+}

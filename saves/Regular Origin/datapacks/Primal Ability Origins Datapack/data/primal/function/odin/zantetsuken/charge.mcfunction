@@ -1,5 +1,5 @@
 #Playsound
-execute if score @s odinZanCharge matches 0..90 run playsound block.sculk.charge master @a[distance=..12] ~ ~ ~ 0.2 0.95 0.2
+execute if score @s odinZanCharge matches 0..90 run playsound block.sculk.charge master @a[distance=..16] ~ ~ ~ 0.2 0.95 0.2
 
 #Increment Meter
 execute if score @s odinZanCharge matches 0..90 run scoreboard players add @s odinZanCharge 10

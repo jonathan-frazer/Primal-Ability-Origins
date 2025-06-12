@@ -1,0 +1,12 @@
+{
+    "name": "Chain of Purgatory",
+    "description": "Your inner fire causes extreme metabolism, food is used 2x as fast",
+    "type": "origins:modify_exhaustion",
+    "modifier": 
+    {
+        "name": "Increased Exhaustion",
+        "operation": "multiply_base_multiplicative",
+        "id": "phoenix:increased_metabolism",
+        "amount": 1.0
+    }
+}
