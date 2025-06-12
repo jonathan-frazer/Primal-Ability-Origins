@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "consume_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "primal:player/eat/normal"
+  }
+}

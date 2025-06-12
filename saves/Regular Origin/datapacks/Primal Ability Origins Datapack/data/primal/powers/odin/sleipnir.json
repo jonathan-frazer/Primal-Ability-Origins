@@ -1,0 +1,28 @@
+{
+    "name": "Sleipnir",
+    "description": "While riding a horse, gain Regeneration 1",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "id": "minecraft:regeneration",
+                "duration": 40,
+                "amplifier": 1,
+                "show_particles": false,
+                "show_icon": true
+            }
+        ]
+    },
+    "interval": 10,
+    "condition": {
+        "type": "origins:riding",
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:horse"
+            }
+        }
+    }
+}

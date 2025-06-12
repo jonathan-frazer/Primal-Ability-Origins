@@ -1,0 +1,10 @@
+{
+	"loading_priority": 1,
+	"powers": [],
+	"icon": {
+		"id": "minecraft:shulker_shell"
+	},
+	"order": 4,
+	"impact": 1,
+	"unchoosable": true
+}

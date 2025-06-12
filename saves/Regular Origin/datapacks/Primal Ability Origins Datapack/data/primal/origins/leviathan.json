@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:leviathan/veil_of_the_whorl",
+        "primal:leviathan/dreadstorm",
+        "primal:leviathan/aqua_breath",
+        "primal:leviathan/aqua_affinity"
+    ],
+    "icon": {"id": "minecraft:heart_of_the_sea"},
+    "order": 5,
+    "impact": 2,
+    "name": "Leviathan",
+    "description": "The Lord of the Whor\n\nThe lord of the seas blesses you to a life beneath the seas"
+}

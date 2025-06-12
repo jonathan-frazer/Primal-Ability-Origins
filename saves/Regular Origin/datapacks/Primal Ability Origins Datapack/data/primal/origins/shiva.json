@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:shiva/permafrost",
+        "primal:shiva/heavenly_strike",
+        "primal:shiva/icebrand",
+        "primal:shiva/absolute_zero"
+    ],
+    "icon": {"id": "minecraft:snowball"},
+    "order": 7,
+    "impact": 2,
+    "name": "Shiva",
+    "description": "The Lady of Frost"
+}

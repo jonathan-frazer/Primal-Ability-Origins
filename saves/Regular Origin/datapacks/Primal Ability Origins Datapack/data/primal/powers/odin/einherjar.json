@@ -1,0 +1,37 @@
+{
+    "type": "origins:multiple",
+    "name": "Einherjar",
+    "description": "Dark Aether prevents the ability to take part in mortal life, you cannot eat food, do not recover health from food, and do not get hungry.",
+    "no_regen": {
+        "type": "disable_regen"
+    },
+    "no_food": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:food"
+        }
+    },
+    "no_hunger": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "id": "minecraft:saturation",
+                    "duration": 40,
+                    "amplifier": 1,
+                    "show_particles": false,
+                    "show_icon": false
+                },
+                {
+                    "id": "minecraft:hunger",
+                    "duration": 40,
+                    "amplifier": 0,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            ]
+        },
+        "interval": 20
+    }
+}

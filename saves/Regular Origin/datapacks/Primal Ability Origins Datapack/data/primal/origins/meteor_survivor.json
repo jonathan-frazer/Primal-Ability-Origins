@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "primal:meteor_survivor/hunger_stable",
+        "primal:meteor_survivor/classic_combat",
+        "primal:meteor_survivor/can_always_eat" 
+    ],
+    "icon": {"id": "minecraft:fire_charge"},
+    "order": 1,
+    "impact": 1,
+    "name": "Meteor Survivor",
+    "description": "You were around before the calamity, before the realm was reborn. This gives you a unique experience some might consider, outdated"
+}

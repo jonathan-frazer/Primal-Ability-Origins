@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:odin/sleipnir",
+        "primal:odin/gungnir",
+        "primal:odin/zantetsu",
+        "primal:odin/einherjar"
+    ],
+    "icon": {"id": "minecraft:music_disc_11"},
+    "order": 9,
+    "impact": 2,
+    "name": "Odin",
+    "description": "The Dark Divinity\n\nPicking up the ancient blade from the ground fills you with great power, but, a complete loss of your mortal soul, was it worth it?"
+}

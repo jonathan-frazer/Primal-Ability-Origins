@@ -1,0 +1,1 @@
+execute if score @s odinZanCharge matches ..-1 run function primal:odin/zantetsuken/3_use

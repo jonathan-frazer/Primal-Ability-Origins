@@ -1,0 +1,66 @@
+{
+    "name": "Fire Aether Infused",
+    "description": "Immune to fire and lava damage.\nBut Take damage from snowballs, rain and being submerged in water",
+    "type": "origins:multiple",
+    "fire_immune": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:fire"
+        }
+    },
+    "water": {
+        "type": "origins:damage_over_time",
+        "interval": 20,
+        "onset_delay": 1,
+        "damage": 2,
+        "damage_easy": 1,
+        "damage_type": "origins:hurt_by_water",
+        "protection_enchantment": "origins:water_protection",
+        "protection_effectiveness": 1,
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "snowball": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "name": "Snowball damage",
+            "operation": "add_total_early",
+            "id": "ifrit:snowball_dmg",
+            "amount": 2
+        },
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:snowball"
+        }
+    },
+    "rain": {
+        "type": "origins:damage_over_time",
+        "interval": 20,
+        "onset_delay": 1,
+        "damage": 2,
+        "damage_easy": 1,
+        "damage_type": "origins:hurt_by_water",
+        "protection_enchantment": "origins:water_protection",
+        "protection_effectiveness": 1,
+        "condition": {
+            "type": "origins:in_rain"
+        }
+    },
+    "snow": {
+        "type": "origins:damage_over_time",
+        "interval": 20,
+        "onset_delay": 1,
+        "damage": 2,
+        "damage_easy": 1,
+        "damage_type": "origins:hurt_by_water",
+        "protection_enchantment": "origins:water_protection",
+        "protection_effectiveness": 1,
+        "condition": {
+            "type": "origins:in_snow"
+        }
+    }
+}

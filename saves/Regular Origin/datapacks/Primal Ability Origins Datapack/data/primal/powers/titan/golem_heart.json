@@ -1,0 +1,21 @@
+{
+    "name": "Golem Heart",
+    "description": "Extra Health",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "Extra HP",
+            "attribute": "minecraft:generic.max_health",
+            "operation": "ADD_VALUE",
+            "id":"titan:extra_health",
+            "amount": 20.0
+        },
+        {
+            "name": "Immunity To fall Damage",
+            "attribute": "minecraft:generic.fall_damage_multiplier",
+            "operation": "ADD_MULTIPLIED_BASE",
+            "id":"titan:fall_immune",
+            "amount": -1.0
+        }
+    ]
+}

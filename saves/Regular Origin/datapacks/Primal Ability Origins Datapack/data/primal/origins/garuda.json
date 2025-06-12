@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "primal:garuda/slipstream",
+        "primal:garuda/downburst",
+        "primal:garuda/mistral_song",
+        "primal:garuda/mistral_shriek",
+        "primal:garuda/prevent_firework_use"
+    ],
+    "icon": {"id": "minecraft:kelp"},
+    "order": 4,
+    "impact": 2,
+    "name": "Garuda",
+    "description": "The Lady of the Vortex\n\nGaruda's Chosen are masters of the sky, and will never be contained by the earth's corruptions."
+}

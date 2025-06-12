@@ -1,0 +1,14 @@
+{
+    "name":"Chaotic Strike",
+    "description": "Randomly deal damage to you, or those around you when submerged in water.",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute as @r[distance=..4] run damage @s 2.0 minecraft:indirect_magic by @p[distance=..1,predicate=primal:is_ramuh]"
+    },
+    "interval": 60,
+    "condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:water"
+}
+}

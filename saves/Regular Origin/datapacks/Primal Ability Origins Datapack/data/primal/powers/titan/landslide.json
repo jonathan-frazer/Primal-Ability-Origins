@@ -1,0 +1,10 @@
+{
+    "name": "Landslide",
+    "description": "Immunity to fall damage, instead doing a shockwave that does damage based on fall damage that would have been received.",
+    "type": "origins:prevent_game_event",
+    "event": "minecraft:hit_ground",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function primal:titan/fall_shockwave/0"
+    }
+}

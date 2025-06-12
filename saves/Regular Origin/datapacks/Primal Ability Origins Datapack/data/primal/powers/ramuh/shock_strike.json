@@ -1,0 +1,16 @@
+{
+    "name":"Shock Strike",
+    "description":"Permanently Grants Spell Power Arcane I",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "id": "spell_power:arcane",
+            "amplifier": 0,
+            "duration": 40,
+            "show_icon": false,
+            "show_particles": false
+        }
+    },
+    "interval": 20
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Aqua breath",
+    "description": "Drowning effect in air when not in rain",
+    "type": "origins:water_breathing"
+}

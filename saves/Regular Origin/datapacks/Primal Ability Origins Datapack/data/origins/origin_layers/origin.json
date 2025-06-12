@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "origins": [
+        "primal:meteor_survivor",
+        "primal:ifrit",
+        "primal:titan",
+        "primal:garuda",
+        "primal:leviathan",
+        "primal:ramuh",
+        "primal:shiva",
+        "primal:moggle_king",
+        "primal:odin"
+    ]
+}

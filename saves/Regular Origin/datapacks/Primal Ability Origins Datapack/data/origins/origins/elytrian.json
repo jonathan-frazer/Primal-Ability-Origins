@@ -1,0 +1,10 @@
+{
+	"loading_priority": 1,
+	"powers": [],
+	"icon": {
+		"id": "minecraft:elytra"
+	},
+	"order": 3,
+	"impact": 1,
+	"unchoosable": true		
+}

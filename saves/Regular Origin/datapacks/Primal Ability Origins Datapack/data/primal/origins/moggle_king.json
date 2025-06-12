@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:moggle_king/decree_i",
+        "primal:moggle_king/decree_ii",
+        "primal:moggle_king/decree_iii",
+        "primal:moggle_king/pom_holy"
+    ],
+    "icon": {"id": "minecraft:gold_ingot"},
+    "order": 8,
+    "impact": 1,
+    "name": "Good King Moggle Mog XII",
+    "description": "The King of Moogles\n\nThe Good King adds your power to his growing mass of followers. United you are unstoppable."
+}

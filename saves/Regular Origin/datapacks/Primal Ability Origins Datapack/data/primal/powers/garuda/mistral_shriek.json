@@ -1,0 +1,26 @@
+{
+    "name": "Mistral Shriek",
+    "description": "You don't like being Underground",
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+        {
+            "name": "Dislike UnderGround",
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "ADD_MULTIPLIED_BASE",
+            "id":"garuda:dislike_underground_speed",
+            "amount": -0.15
+        },
+        {
+            "name": "Dislike UnderGround",
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "ADD_MULTIPLIED_BASE",
+            "id":"garuda:dislike_underground_attack",
+            "amount": -0.10
+        }
+    ],
+    "tick_rate": 30,
+    "condition": {
+        "type": "origins:exposed_to_sky",
+        "inverted":true
+    }
+}

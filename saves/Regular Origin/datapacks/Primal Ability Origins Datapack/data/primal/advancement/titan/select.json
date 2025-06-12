@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "chose_titan": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "primal:titan"
+            }
+        }
+    },
+    "rewards": {
+        "function": "primal:titan/activate"
+    }
+}

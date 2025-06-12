@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "consume_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        },
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_mutton",
+            "minecraft:rabbit_stew",
+            "minecraft:golden_carrot"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "primal:player/eat/heavy"
+  }
+}

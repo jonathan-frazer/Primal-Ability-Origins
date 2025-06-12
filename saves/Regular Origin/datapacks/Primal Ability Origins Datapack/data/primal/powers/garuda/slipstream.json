@@ -1,0 +1,6 @@
+{
+    "name": "Slipstream",
+    "description": "Fly with the Innate Wings you have, Does not allow Firework Rocket use unless you equip regular Elytra",
+    "type": "origins:elytra_flight",
+    "render_elytra": true
+}

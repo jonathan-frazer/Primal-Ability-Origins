@@ -1,0 +1,2 @@
+execute if score @s odinZanCharge matches 0..99 run tellraw @s {"text":"That Ability is not Ready Yet","color": "red"}
+execute if score @s odinZanCharge matches 100.. run function primal:odin/zantetsuken/1_activate

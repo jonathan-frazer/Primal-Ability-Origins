@@ -1,0 +1,10 @@
+{
+    "name": "Mistral Song",
+    "description": "Requires your bed to be in the sky",
+    "type": "origins:prevent_sleep",
+    "message": "Can only sleep in view of the Sky",
+    "condition": {
+        "type": "origins:exposed_to_sky",
+        "inverted":true
+    }
+}

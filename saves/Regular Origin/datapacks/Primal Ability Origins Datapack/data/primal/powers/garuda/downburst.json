@@ -1,0 +1,10 @@
+{
+    "name": "Downburst",
+    "description": "AOE knockback, small damage",
+    "type": "origins:active_self",
+    "entity_action": {    
+        "type": "origins:execute_command",
+        "command": "function primal:garuda/downburst/0"
+    },
+    "cooldown": 120
+}

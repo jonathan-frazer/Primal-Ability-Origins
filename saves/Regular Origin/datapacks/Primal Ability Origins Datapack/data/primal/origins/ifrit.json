@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "primal:ifrit/aether_infused",
+        "primal:ifrit/fire_claws",
+        "primal:ifrit/infernal_nail"
+    ],
+    "icon": {"id": "minecraft:blaze_powder"},
+    "order": 2,
+    "impact": 2,
+    "name": "Ifrit",
+    "description": "The Lord of the Inferno,\n\nBlessed by the Inferno you are a fearful force in close ranged combat."
+}

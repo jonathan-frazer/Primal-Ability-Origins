@@ -1,0 +1,65 @@
+{
+    "name": "Good King's Third Decree",
+    "description": "Once per minecraft day, if you would die, instead regain all your health, and every player within 32 blocks gain 20 HP",
+    "type": "origins:multiple",
+    "prevent_dying": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "id": "minecraft:regeneration",
+                            "duration": 40,
+                            "amplifier": 250,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "id": "minecraft:resistance",
+                            "duration": 40,
+                            "amplifier": 2,
+                            "show_particles": false,
+                            "show_icon": false
+                        },
+                        {
+                            "id": "minecraft:fire_resistance",
+                            "duration": 140,
+                            "amplifier": 0,
+                            "show_particles": false,
+                            "show_icon": false
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function primal:moggle_king/decree_iii/0"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:nbt",
+            "nbt": "{Tags: ['decree_iii_used']}",
+            "inverted":true
+        },
+        "damage_condition": {
+            "type": "origins:type",
+            "damage_type": "minecraft:lightning_bolt"
+        }
+    },
+    "recharge": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "tag @s remove decree_iii_used"
+        },
+        "interval": 60,
+        "condition": {
+            "type": "origins:time_of_day",
+            "comparison": "<=",
+            "compare_to": 1000
+        }
+    }
+}

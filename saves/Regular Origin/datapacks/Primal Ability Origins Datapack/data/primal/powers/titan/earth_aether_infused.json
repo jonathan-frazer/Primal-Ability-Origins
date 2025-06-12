@@ -1,0 +1,16 @@
+{
+    "name": "Earth Aether Infused",
+    "description": "You are heavy and move slower than most others. While exposed to the sky, you move slower.",
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "name": "Earth Aether Slow",
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "id":"titan:earth_aether_slow",
+        "amount": -0.15
+    },
+    "tick_rate": 10,
+    "condition": {
+        "type": "origins:exposed_to_sky"
+    }
+}

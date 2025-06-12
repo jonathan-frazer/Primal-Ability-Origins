@@ -1,0 +1,22 @@
+{
+    "name":"Slipstream",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:firework_rocket"
+        }
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:elytra"
+            }
+        },
+        "inverted":true
+    },
+    "hidden":true
+}

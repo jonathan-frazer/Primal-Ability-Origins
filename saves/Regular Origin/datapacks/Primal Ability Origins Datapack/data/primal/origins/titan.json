@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:titan/golem_heart",
+        "primal:titan/landslide",
+        "primal:titan/earth_aether_infused",
+        "primal:titan/geocrush"
+    ],
+    "icon": {"id": "minecraft:potato"},
+    "order": 3,
+    "impact": 1,
+    "name": "Titan",
+    "description": "The Lord of Crags\n\nTitan's Blessed are given indomitable will manifest, stalwart and hard to kill."
+}

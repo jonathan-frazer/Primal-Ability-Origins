@@ -1,0 +1,10 @@
+{
+    "name": "Pom Holy",
+    "description": "Each of the Good King Decree's effects are doubled for 1 minute, and their effective range is increased to 64 blocks.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function primal:moggle_king/pom_holy/apply"
+    },
+    "cooldown": 10
+}

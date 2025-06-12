@@ -1,0 +1,37 @@
+{
+    "name": "Icebrand",
+    "description": "Iron/Gold armor can not be worn as it freezes to your ice cold skin",
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:ingredient",
+        "ingredient": 
+        [
+            {"item": "minecraft:golden_helmet"},
+            {"item": "minecraft:iron_helmet"}
+        ]
+    },
+    "chest": {
+        "type": "origins:ingredient",
+        "ingredient": 
+        [
+            {"item": "minecraft:golden_chestplate"},
+            {"item": "minecraft:iron_chestplate"}
+        ]
+    },
+    "legs": {
+        "type": "origins:ingredient",
+        "ingredient": 
+        [
+            {"item": "minecraft:golden_leggings"},
+            {"item": "minecraft:iron_leggings"}
+        ]
+    },
+    "feet": {
+        "type": "origins:ingredient",
+        "ingredient": 
+        [
+            {"item": "minecraft:golden_boots"},
+            {"item": "minecraft:iron_boots"}
+        ]
+    }
+}

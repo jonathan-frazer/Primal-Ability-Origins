@@ -1,0 +1,15 @@
+{
+    "name": "Heavenly Strike",
+    "description": "Snowballs now deal 1 heart of frost damage instead of 0",
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+        "name": "Snowball Damage",
+        "operation": "add_total_early",
+        "id": "shiva:snowball_dmg",
+        "amount": 4.0
+    },
+    "damage_condition": {
+        "type": "origins:projectile",
+        "projectile": "minecraft:snowball"
+    }
+}

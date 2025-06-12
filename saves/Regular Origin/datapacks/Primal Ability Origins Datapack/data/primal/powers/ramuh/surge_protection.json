@@ -1,0 +1,26 @@
+{
+    "name": "Surge Protection",
+    "description": "Lightning Strikes Heal you",
+    "type": "origins:prevent_death",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "id": "minecraft:fire_resistance",
+                        "duration": 140,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                ]
+            }
+        ]
+    },
+    "damage_condition": {
+        "type": "origins:type",
+        "damage_type": "minecraft:lightning_bolt"
+    }
+}

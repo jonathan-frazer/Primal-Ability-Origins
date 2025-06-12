@@ -1,0 +1,11 @@
+{
+    "name":"Permafrost",
+    "description": "Permanent Frostwalker buff",
+    "type": "origins:modify_enchantment_level",
+    "enchantment": "minecraft:frost_walker",
+    "modifier": {
+        "resource": "minecraft:frost_walker",
+        "operation": "set_total",
+        "amount": 1
+    }
+}

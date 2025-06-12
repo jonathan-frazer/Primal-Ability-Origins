@@ -1,0 +1,1 @@
+advancement revoke @s only primal:player_atk

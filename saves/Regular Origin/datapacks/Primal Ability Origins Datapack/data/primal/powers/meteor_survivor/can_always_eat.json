@@ -1,0 +1,6 @@
+{
+    "name": "Classic soundfont",
+    "description": "Ancient 'oof' sound when taking Damage",
+    "type": "origins:modify_food",
+    "always_edible": true
+}

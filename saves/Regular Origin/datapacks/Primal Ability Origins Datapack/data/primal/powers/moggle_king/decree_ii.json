@@ -1,0 +1,10 @@
+{
+    "name": "Good King's Second Decree",
+    "description": "For each other player within 32 blocks with The Good King’s Blessing, you gain +1 strength buf",
+    "type": "origins:action_over_time",
+    "entity_action": {    
+        "type": "origins:execute_command",
+        "command": "function primal:moggle_king/decree_ii/0"
+    },
+    "interval": 10
+}

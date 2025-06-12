@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "primal:ramuh/shock_strike",
+        "primal:ramuh/surge_protection",
+        "primal:ramuh/judgement_bolt",
+        "primal:ramuh/chaotic_strike",
+        "primal:ramuh/lightning_heal"
+    ],
+    "icon": {"id": "minecraft:bone_meal"},
+    "order": 6,
+    "impact": 2,
+    "name": "Ramuh",
+    "description": "The Lord of Levin\n\nThe Storm's power infuses your mana to make you a powerhouse of a mage"
+}

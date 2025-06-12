@@ -1,0 +1,10 @@
+{
+    "name": "Good King's First Decree",
+    "description": "+2 max health per fellow Player within 32 blocks",
+    "type": "origins:action_over_time",
+    "entity_action": {    
+        "type": "origins:execute_command",
+        "command": "function primal:moggle_king/decree_i/0"
+    },
+    "interval": 10
+}

@@ -1,0 +1,69 @@
+{
+    "name": "Dreadstorm",
+    "description": "during Rain or Thunderstorm weather. Gain Resistance 2 and Strength 2",
+    "type": "origins:multiple",
+    "rain_strength": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "id": "minecraft:strength",
+                "amplifier": 1,
+                "duration": 40,
+                "show_particles": false
+            }
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:in_rain"
+        }
+    },
+    "rain_resistance": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "id": "minecraft:resistance",
+                "amplifier": 1,
+                "duration": 40,
+                "show_particles": false
+            }
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:in_rain"
+        }
+    },
+    "thunder_strength": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "id": "minecraft:strength",
+                "amplifier": 1,
+                "duration": 40,
+                "show_particles": false
+            }
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:in_thunderstorm"
+        }
+    },
+    "thunder_resistance": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "id": "minecraft:resistance",
+                "amplifier": 1,
+                "duration": 40,
+                "show_particles": false
+            }
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:in_thunderstorm"
+        }
+    }
+}

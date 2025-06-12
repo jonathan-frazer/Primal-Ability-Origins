@@ -1,0 +1,15 @@
+{
+    "name": "Absolute Zero",
+    "description": " Large AOE frost damage (small) extinguish all fire, turn lava/water to magma/ice. Gain flight for short period of time",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+        {    
+            "type": "origins:execute_command",
+            "command": "function primal:shiva/absolute_zero/0"
+        }
+    ]
+    },
+    "cooldown": 450
+}

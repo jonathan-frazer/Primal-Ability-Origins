@@ -1,0 +1,24 @@
+{
+    "type": "origins:multiple",
+    "name": "Classic Hunger",
+    "description": "Hunger mechanic doesn't exist, Food directly Heals you",
+    "no_regen": {
+        "type": "origins:disable_regen"
+    },
+    "full_hunger": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "id": "minecraft:saturation",
+                    "duration": 40,
+                    "amplifier": 1,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            ]
+        },
+        "interval": 20
+    }
+}
