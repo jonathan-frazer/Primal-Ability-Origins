@@ -28,3 +28,7 @@ execute as @a[scores={shivaFlight=1..}] run function primal:shiva/flight/dur
 #Phoenix
 execute as @a[predicate=primal:is_phoenix] at @s run function primal:phoenix/fountain_of_fire/0
 execute as @e[type=area_effect_cloud,name="phoenixCircle"] at @s run function primal:phoenix/revelation/2_dur
+
+#Bahamut
+execute as @a[scores={bahamutDragonBreath=1..}] at @s anchored eyes positioned ^ ^ ^0.1 run function primal:bahamut/dragon_breath/1_dur
+execute as @e[type=area_effect_cloud,name="bahamutBreathFlame"] at @s run function primal:bahamut/dragon_breath/2_flame
