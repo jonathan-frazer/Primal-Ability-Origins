@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:lakshmi/permafrost",
+        "primal:lakshmi/heavenly_strike",
+        "primal:lakshmi/icebrand",
+        "primal:lakshmi/absolute_zero"
+    ],
+    "icon": {"id": "minecraft:yellow_dye"},
+    "order": 20,
+    "impact": 1,
+    "name": "Lakshmi",
+    "description": "The Lady of Bliss"
+}

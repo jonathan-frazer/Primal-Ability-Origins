@@ -1,0 +1,50 @@
+{
+    "name": "Ain",
+    "description": "Strength 2 buff while using bare hands, or wooden weapons",
+    "type": "origins:multiple",
+    "wood_weapon": {
+        "type": "action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "id": "minecraft:strength",
+                "duration": 10,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": true
+            }
+        },
+        "interval": 5,
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "primal:wood_weapon"
+                }
+            }
+        }
+    },
+    "bare_hands": {
+        "type": "action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "id": "minecraft:strength",
+                "duration": 10,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": true
+            }
+        },
+        "interval": 5,
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        }
+    }
+}

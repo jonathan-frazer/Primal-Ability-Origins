@@ -1,0 +1,36 @@
+{
+    "name": "Ratzon",
+    "description": "Health regen 1 and Saturation 2 buffs while in sunlight",
+    "type": "origins:multiple",
+    "regeneration": {
+        "type": "action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "id": "minecraft:regeneration",
+                    "duration": 40,
+                    "amplifier": 0,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            ]
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:exposed_to_sun"
+        }
+    },
+    "saturation": {
+        "type": "action_over_time",
+        "entity_action": {
+                    "type": "origins:feed",
+                    "nutrition": 2,
+                    "saturation": 0
+                },
+        "interval": 20,
+        "condition": {
+            "type": "origins:exposed_to_sun"
+        }
+    }
+}

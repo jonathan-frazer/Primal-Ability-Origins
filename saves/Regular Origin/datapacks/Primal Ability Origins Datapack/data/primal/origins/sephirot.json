@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:sephirot/ratson",
+        "primal:sephirot/ain",
+        "primal:sephirot/pillar_of_mercy",
+        "primal:sephirot/no_food"
+    ],
+    "icon": {"id": "minecraft:oak_sapling"},
+    "order": 16,
+    "impact": 1,
+    "name": "Sephirot",
+    "description": "The Fiend\n\nThe protector of the long lost tree race gives you power over nature"
+}

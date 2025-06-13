@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:sophia/permafrost",
+        "primal:sophia/heavenly_strike",
+        "primal:sophia/icebrand",
+        "primal:sophia/absolute_zero"
+    ],
+    "icon": {"id": "minecraft:bamboo_hanging_sign"},
+    "order": 17,
+    "impact": 1,
+    "name": "Sophia",
+    "description": "The Goddess\n\nEquilibrium in all things brings you untold power"
+}

@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:susano/permafrost",
+        "primal:susano/heavenly_strike",
+        "primal:susano/icebrand",
+        "primal:susano/absolute_zero"
+    ],
+    "icon": {"id": "minecraft:yellow_candle"},
+    "order": 19,
+    "impact": 1,
+    "name": "Susano",
+    "description": "The Lord of the Revel"
+}

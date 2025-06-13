@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:zurvan/permafrost",
+        "primal:zurvan/heavenly_strike",
+        "primal:zurvan/icebrand",
+        "primal:zurvan/absolute_zero"
+    ],
+    "icon": {"id": "minecraft:warped_nylium"},
+    "order": 18,
+    "impact": 1,
+    "name": "Zurvan",
+    "description": "The Demon\n\nFire, Ice, Destruction, the demon of victory empowers you"
+}
