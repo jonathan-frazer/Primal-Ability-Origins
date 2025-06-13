@@ -45,5 +45,9 @@ scoreboard objectives add sophiaCloudy dummy
 #Zurvan
 scoreboard objectives add zurvanFreeze dummy
 
+#Lakshmi
+scoreboard objectives add Health health
+scoreboard objectives add lakshmiVrill dummy
+
 schedule function primal:mainhalfsec 10t
 schedule function primal:mainsec 20t

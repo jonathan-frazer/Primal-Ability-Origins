@@ -1,0 +1,31 @@
+{
+    "name": "Strotam",
+    "description": "While Food is at maximum, gain health regen 1",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "id": "minecraft:regeneration",
+                "duration": 40,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            }
+        ]
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:all_of",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sun"
+            },
+            {
+                "type": "origins:food_level",
+                "comparison": ">=",
+                "compare_to": 20
+            }
+        ]
+    }
+}

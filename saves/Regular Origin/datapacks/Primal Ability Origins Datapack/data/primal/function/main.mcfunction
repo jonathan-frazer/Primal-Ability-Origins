@@ -54,3 +54,8 @@ execute as @e[type=area_effect_cloud,name="quazarMeteor"] at @s run function pri
 
 #Zurvan
 execute as @e[scores={zurvanFreeze=1..},type=!#primal:nalive] run function primal:zurvan/frozen/dur
+
+#Susanno
+
+#Lakshmi
+execute as @a[scores={lakshmiVrill=1..}] run function primal:lakshmi/vrill/1_dur

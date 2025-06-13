@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "name": "Snowball damage",
+        "operation": "multiply_base_additive",
+        "id": "lakshmi:invincibility",
+        "amount": -1
+    }
+}

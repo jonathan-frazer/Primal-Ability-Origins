@@ -38,5 +38,10 @@ execute as @a[predicate=primal:is_zurvan] run function primal:zurvan/half_second
 execute as @a[predicate=!primal:is_zurvan,predicate=primal:mode/fire_mode] run power revoke @s primal:zurvan/infinite_fire
 execute as @a[predicate=!primal:is_zurvan,predicate=primal:mode/ice_mode] run power revoke @s primal:zurvan/infinite_ice
 
+#Susano
+
+#Lakshmi
+execute as @a[predicate=!primal:is_lakshmi,predicate=primal:mode/invincible] run power revoke @s primal:lakshmi/invincible
+
 
 schedule function primal:mainhalfsec 10t

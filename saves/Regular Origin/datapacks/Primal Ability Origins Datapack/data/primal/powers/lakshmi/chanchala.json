@@ -1,0 +1,13 @@
+{
+    "name": "Chanchala",
+    "description": "While Health is as maximum, gain resistance 1",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function primal:lakshmi/chanchala/0"
+    },
+    "interval": 20,
+    "condition":{
+        "type": "origins:exposed_to_sun"
+    }
+}

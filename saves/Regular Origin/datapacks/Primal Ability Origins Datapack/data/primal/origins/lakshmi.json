@@ -1,9 +1,9 @@
 {
     "powers": [
-        "primal:lakshmi/permafrost",
-        "primal:lakshmi/heavenly_strike",
-        "primal:lakshmi/icebrand",
-        "primal:lakshmi/absolute_zero"
+        "primal:lakshmi/chanchala",
+        "primal:lakshmi/strotram",
+        "primal:lakshmi/vrill",
+        "primal:lakshmi/the_pall_of_light"
     ],
     "icon": {"id": "minecraft:yellow_dye"},
     "order": 20,
