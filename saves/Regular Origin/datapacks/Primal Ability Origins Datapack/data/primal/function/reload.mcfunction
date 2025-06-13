@@ -42,5 +42,8 @@ scoreboard objectives add ravanaInsect dummy
 #Sophia
 scoreboard objectives add sophiaCloudy dummy
 
+#Zurvan
+scoreboard objectives add zurvanFreeze dummy
+
 schedule function primal:mainhalfsec 10t
 schedule function primal:mainsec 20t

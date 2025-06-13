@@ -1,0 +1,5 @@
+{
+    "name":"Debuff",
+    "description":"While fire attuned: take damage from water/snowballs,\n\nWhile ice attuned, take double damage from fire and lava",
+    "type":"origins:multiple"
+}

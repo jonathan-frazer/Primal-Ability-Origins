@@ -1,0 +1,64 @@
+{
+    "name": "Infinite Fire",
+    "description": "Immune to fire damage, Run on top of lava, weapons set enemies on fire",
+    "type": "origins:multiple",
+    "fire_immune": {
+        "type": "origins:fire_immunity"
+    },
+    "lava_walk": {
+        "type": "origins:walk_on_fluid",
+        "fluid": "minecraft:lava",
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:lava",
+            "comparison": "<=",
+            "compare_to": 0.4
+        }
+    },
+    "fire_weapon": {
+        "type": "origins:target_action_on_hit",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "primal:weapon"
+                }
+            }
+        },
+        "entity_action": {
+            "type": "origins:set_on_fire",
+            "duration": 5
+        }
+    },
+    "water": {
+        "type": "origins:damage_over_time",
+        "interval": 10,
+        "onset_delay": 1,
+        "damage": 2,
+        "damage_easy": 1,
+        "damage_type": "origins:hurt_by_water",
+        "protection_enchantment": "origins:water_protection",
+        "protection_effectiveness": 1,
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "snowball": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "name": "Snowball damage",
+            "operation": "add_total_early",
+            "id": "zurvan:snowball_dmg",
+            "amount": 4
+        },
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:snowball"
+        }
+    }
+}

@@ -18,7 +18,7 @@
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "function primal:sephirot/pillar_of_mercy/0"
+                    "command": "particle happy_villager ~ ~ ~ 0.25 0.25 0.25 0.001 25 force"
                 },
                 {
                     "type": "origins:bonemeal",

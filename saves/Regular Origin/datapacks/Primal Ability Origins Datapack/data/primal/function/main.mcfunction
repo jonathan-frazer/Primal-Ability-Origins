@@ -51,3 +51,6 @@ execute as @e[type=area_effect_cloud,name="bahamutBreathFlame"] at @s run functi
 
 #Sophia
 execute as @e[type=area_effect_cloud,name="quazarMeteor"] at @s run function primal:sophia/quazar/2_dur
+
+#Zurvan
+execute as @e[scores={zurvanFreeze=1..},type=!#primal:nalive] run function primal:zurvan/frozen/dur
