@@ -1,0 +1,11 @@
+{
+    "name": "The Untempered",
+    "description": "Negative status effects wear off in 1/2th the time",
+    "type": "origins:modify_status_effect_duration",
+    "modifier": {
+        "name": "Half All effects",
+        "operation": "multiply_base_additive",
+        "id": "hydaelyn:untempered",
+        "amount": -0.5
+    }
+}

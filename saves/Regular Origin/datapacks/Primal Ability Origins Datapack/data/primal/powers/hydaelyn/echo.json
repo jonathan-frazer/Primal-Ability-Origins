@@ -1,0 +1,77 @@
+{
+    "type": "origins:prevent_death",
+    "name": "Echo",
+    "description": "An extra life recharged once the player sleeps in a bed overnight. Gives strength 1 and 4 absorption hearts on revive for 1 minute",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "id": "minecraft:regeneration",
+                        "duration": 40,
+                        "amplifier": 250,
+                        "show_particles": false,
+                        "show_icon": true
+                    },
+                    {
+                        "id": "minecraft:resistance",
+                        "duration": 40,
+                        "amplifier": 2,
+                        "show_particles": false,
+                        "show_icon": false
+                    },
+                    {
+                        "id": "minecraft:fire_resistance",
+                        "duration": 140,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": false
+                    },
+                    {
+                        "id": "minecraft:strength",
+                        "duration": 1200,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "id": "minecraft:absorption",
+                        "duration": 1200,
+                        "amplifier": 1,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                ]
+            },
+            {
+                "type": "origins:spawn_particles",
+                "particle": {
+                    "type": "minecraft:totem_of_undying"
+                },
+                "count": 16,
+                "speed": 0,
+                "force": true,
+                "spread": {
+                    "x": 1,
+                    "y": 2,
+                    "z": 1
+                }
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:item.totem.use"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "tag @s add hydEchoBlock"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:nbt",
+        "nbt": "{Tags: ['hydEchoBlock']}",
+        "inverted": true
+    }
+}

@@ -31,5 +31,8 @@ scoreboard objectives add phoenixRevelation dummy
 #Bahamut
 scoreboard objectives add bahamutDragonBreath dummy
 
+#Hydaelyn
+scoreboard objectives add hydaelynSleep dummy
+
 schedule function primal:mainhalfsec 10t
 schedule function primal:mainsec 20t
