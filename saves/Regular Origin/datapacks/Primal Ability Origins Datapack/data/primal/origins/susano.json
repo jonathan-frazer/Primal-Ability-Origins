@@ -1,9 +1,10 @@
 {
     "powers": [
-        "primal:susano/permafrost",
-        "primal:susano/heavenly_strike",
-        "primal:susano/icebrand",
-        "primal:susano/absolute_zero"
+        "primal:susano/extra_sword_damage",
+        "primal:susano/yata_no_kagami",
+        "primal:susano/brightstorm",
+        "primal:susano/weather_change",
+        "primal:susano/disable_shield"
     ],
     "icon": {"id": "minecraft:yellow_candle"},
     "order": 19,

@@ -1,0 +1,25 @@
+{
+    "name": "Ame-no-Murakumo",
+    "description": "Deal extra damage with Swords",
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+        {
+            "name": "Sword Multiplier",
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "ADD_MULTIPLIED_BASE",
+            "id": "susano:sword_damage",
+            "amount": 0.33
+        }
+    ],
+    "tick_rate": 10,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+        "tag": "primal:sword"
+    }
+}
+    }
+}

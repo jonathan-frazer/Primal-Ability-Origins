@@ -1,0 +1,64 @@
+{
+    "name": "Brightstorm",
+    "description": "Lightning strikes heal you instead",
+    "type": "origins:multiple",
+    "surge_protection": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "id": "minecraft:fire_resistance",
+                            "duration": 140,
+                            "amplifier": 0,
+                            "show_particles": false,
+                            "show_icon": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "damage_condition": {
+            "type": "origins:type",
+            "damage_type": "minecraft:lightning_bolt"
+        }
+    },
+    "lightning_heal": {
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:extinguish"
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "id": "minecraft:fire_resistance",
+                            "duration": 100,
+                            "amplifier": 0,
+                            "show_particles": false,
+                            "show_icon": false
+                        },
+                        {
+                            "id": "minecraft:instant_health",
+                            "duration": 1,
+                            "amplifier": 1,
+                            "show_particles": false,
+                            "show_icon": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "damage_condition": {
+            "type": "origins:type",
+            "damage_type": "minecraft:lightning_bolt"
+        },
+        "cooldown": 5
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Rasen Kaikyo",
+    "description": "Change the weather to Thunderstorm",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "weather thunder"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "title @s actionbar {\"text\":\"Weather Changed to Thunder\",\"color\":\"gold\",\"bold\":true}"
+            }
+        ]
+    },
+    "cooldown": 600,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 2
+    }
+}
