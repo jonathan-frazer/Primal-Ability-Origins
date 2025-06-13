@@ -1,0 +1,10 @@
+{
+    "name": "Cloudy Heavens",
+    "description": "If identical tools (ignores enchantments, just base item) are in both hands, gain Haste 2 buff",
+    "type": "origins:action_over_time",
+    "entity_action": {    
+            "type": "origins:execute_command",
+            "command": "function primal:sophia/cloudy_heavens/0_check"
+        },
+    "interval": 10
+}

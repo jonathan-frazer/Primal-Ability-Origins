@@ -1,0 +1,10 @@
+{
+    "name": "Eternal Doom",
+    "description": "AOE debuff/buff that is the opposite of personal buff/debuff (regeneration/poison, haste/fatigue, saturation/hunger, speed/slow, nightvision/blindness)",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function primal:sophia/eternal_doom/0_check"
+    },
+    "interval": 10
+}

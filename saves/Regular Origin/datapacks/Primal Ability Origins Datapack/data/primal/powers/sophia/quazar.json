@@ -1,0 +1,23 @@
+{
+    "name": "Quazar",
+    "description": "Summon a meteor that comes down after 2 seconds, large AOE explosion",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 7,
+        "block": true,
+        "entity": false,
+        "shape_type": "visual",
+        "fluid_handling": "any",
+        "block_action": {
+            "type": "origins:execute_command",
+            "command": "function primal:sophia/quazar/0"
+        }
+    },
+    "cooldown": 640,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 14
+    }
+}

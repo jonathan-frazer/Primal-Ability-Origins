@@ -1,0 +1,62 @@
+{
+    "name": "Cloudy Heavens",
+    "description": "Being unbalanced (only one hand being used) will cause mining fatigued",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "id": "minecraft:mining_fatigue",
+                "duration": 20,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": true
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:all_of",
+        "conditions": [
+            {
+                "type": "origins:any_of",
+                "conditions": [
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                            "type": "origins:empty"
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:empty"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "origins:all_of",
+                "conditions": [
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                            "type": "origins:empty"
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:empty"
+                        }
+                    }
+                ],
+                "inverted":true
+            }
+        ]
+    },
+    "interval": 10
+}

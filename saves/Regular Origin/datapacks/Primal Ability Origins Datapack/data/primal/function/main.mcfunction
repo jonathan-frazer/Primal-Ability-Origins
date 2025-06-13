@@ -46,3 +46,8 @@ execute as @e[type=area_effect_cloud,name="bahamutBreathFlame"] at @s run functi
     execute as @a unless predicate primal:is_ravana run advancement revoke @s[advancements={primal:ravana/transform=true}] only primal:ravana/transform
     execute as @a[predicate=primal:is_ravana] at @s as @e[type=#primal:ravana_insect,distance=..16,predicate=primal:chasing/ravana] run function primal:ravana/insect_friendly/0_apply
     execute as @e[type=#primal:ravana_insect,scores={ravanaInsect=1..}] run function primal:ravana/insect_friendly/1_dur
+
+#Sephirot
+
+#Sophia
+execute as @e[type=area_effect_cloud,name="quazarMeteor"] at @s run function primal:sophia/quazar/2_dur

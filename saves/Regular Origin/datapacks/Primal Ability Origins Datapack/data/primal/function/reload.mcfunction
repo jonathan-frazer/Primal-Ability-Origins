@@ -39,5 +39,8 @@ scoreboard objectives add ravanaInsect dummy
 
 #Sephirot
 
+#Sophia
+scoreboard objectives add sophiaCloudy dummy
+
 schedule function primal:mainhalfsec 10t
 schedule function primal:mainsec 20t

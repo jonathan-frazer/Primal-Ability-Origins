@@ -1,0 +1,1 @@
+effect give @s hunger 1 255 false

@@ -1,9 +1,9 @@
 {
     "powers": [
-        "primal:sophia/permafrost",
-        "primal:sophia/heavenly_strike",
-        "primal:sophia/icebrand",
-        "primal:sophia/absolute_zero"
+        "primal:sophia/cloudy_heavens",
+        "primal:sophia/eternal_doom",
+        "primal:sophia/quazar",
+        "primal:sophia/cloudy_heavens_debuff"
     ],
     "icon": {"id": "minecraft:bamboo_hanging_sign"},
     "order": 17,

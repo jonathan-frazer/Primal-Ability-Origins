@@ -1,0 +1,1 @@
+effect give @s unluck 1 0 false

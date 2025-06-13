@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.id if data entity @s Inventory[{Slot:-106b}].id run function primal:sophia/cloudy_heavens/1_check
