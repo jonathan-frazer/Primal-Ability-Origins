@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:zodiark/lifesteal",
+        "primal:zodiark/koyotos",
+        "primal:zodiark/phlegeton",
+        "primal:zodiark/no_heal"
+    ],
+    "icon": {"id": "minecraft:snout_armor_trim_smithing_template"},
+    "order": 13,
+    "impact": 2,
+    "name": "Zodiark",
+    "description": "The Eternal Darkness\n\nJoining the Ascians gives you access to untold powers"
+}

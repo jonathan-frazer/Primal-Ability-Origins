@@ -1,0 +1,15 @@
+{
+    "name":"The Dark Inside",
+    "description":"Life steal on all attacks",
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 200000.0
+    },
+    "damage_condition": {
+        "type": "origins:amount",
+        "comparison": ">=",
+        "compare_to": 0.0
+    },
+    "cooldown": 1
+}

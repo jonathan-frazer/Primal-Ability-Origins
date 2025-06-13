@@ -1,0 +1,95 @@
+{
+    "name": "Koyotos",
+    "description": "Attacks can cause a random negative status effect, of Wither, Slow, Hunger, Nausea, Poison, or Blindness",
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "element": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "id": "minecraft:wither",
+                        "amplifier": 1,
+                        "duration": 100,
+                        "is_ambient": false,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "id": "minecraft:slowness",
+                        "amplifier": 1,
+                        "duration": 100,
+                        "is_ambient": false,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "id": "minecraft:hunger",
+                        "amplifier": 1,
+                        "duration": 100,
+                        "is_ambient": false,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "id": "minecraft:nausea",
+                        "amplifier": 1,
+                        "duration": 100,
+                        "is_ambient": false,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "id": "minecraft:blindness",
+                        "amplifier": 1,
+                        "duration": 100,
+                        "is_ambient": false,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "id": "minecraft:poison",
+                        "amplifier": 1,
+                        "duration": 100,
+                        "is_ambient": false,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                },
+                "weight": 1
+            }
+        ]
+    },
+    "cooldown": 1
+}

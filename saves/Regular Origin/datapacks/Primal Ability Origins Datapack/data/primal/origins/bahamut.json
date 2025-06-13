@@ -4,7 +4,7 @@
         "primal:bahamut/dragon_scale",
         "primal:bahamut/dragon_breath"
     ],
-    "icon": {"id": "minecraft:coal"},
+    "icon": {"id": "minecraft:dragon_breath"},
     "order": 11,
     "impact": 2,
     "name": "Bahamut",

@@ -1,0 +1,11 @@
+{
+    "name": "Debuff",
+    "description": "Healing Potions and magics no longer work on you",
+    "type": "origins:modify_healing",
+    "modifier": {
+        "name": "Prevents healing",
+        "operation": "multiply_base_additive",
+        "id": "zodiark:no_heal",
+        "amount": -0.99999
+    }
+}
