@@ -1,11 +1,5 @@
 {
     "name": "The Untempered",
     "description": "Positive status effects wear off in 1/2th the time",
-    "type": "origins:modify_insomnia_ticks",
-    "modifier": {
-        "name": "Dummy",
-        "operation": "add_total_early",
-        "id": "hydaelyn:untempered",
-        "amount": 0.0
-    }
+    "type": "origins:multiple"
 }

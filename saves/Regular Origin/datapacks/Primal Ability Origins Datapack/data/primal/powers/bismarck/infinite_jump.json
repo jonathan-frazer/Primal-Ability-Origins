@@ -1,0 +1,50 @@
+{
+    "name": "Wind Master",
+    "description": "Permanent elytra flight, but Can Press G to enable jumps in mid air",
+    "type": "origins:multiple",
+    "activate": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "cooldown": 100,
+        "entity_action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:*_duration"
+        }
+    },
+    "duration": {
+        "type": "origins:cooldown",
+        "cooldown": 100,
+        "hud_render": {
+            "bar_index": 5
+        }
+    },
+    "effect_grounded": {
+        "type": "origins:grounded",
+        "condition": {
+            "type": "apoli:resource",
+            "resource": "*:*_duration",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "particles": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "particle cloud ~ ~0.5 ~ 0.3 0.3 0.3 0.01 10 force @a[distance=..12]"
+        },
+        "condition": {
+            "type": "apoli:resource",
+            "resource": "*:*_duration",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "interval": 2
+    },
+    "elytra": {
+        "type": "origins:elytra_flight",
+        "render_elytra": false
+    }
+}

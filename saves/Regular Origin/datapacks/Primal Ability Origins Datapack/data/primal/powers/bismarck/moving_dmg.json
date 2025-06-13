@@ -1,0 +1,79 @@
+{
+    "name": "Ravage",
+    "description": "The faster you are moving, the more damage you do",
+    "type": "origins:multiple",
+    "moving_horizontally": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Horizontal Damage",
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "ADD_VALUE",
+            "id": "bismarck:moving_damage_horizontal",
+            "amount": 1.0
+        },
+        "tick_rate": 1,
+        "condition": {
+            "type": "origins:moving",
+            "horizontally": true,
+            "vertically":false
+        }
+    },
+    "moving_vertically": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Vertical Damage",
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "ADD_VALUE",
+            "id": "bismarck:moving_damage_vertical",
+            "amount": 1.0
+        },
+        "tick_rate": 1,
+        "condition": {
+            "type": "origins:moving",
+            "vertically": true,
+            "horizontally":false
+        }
+    },
+    "sprinting": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Sprinting Damage",
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "ADD_VALUE",
+            "id": "bismarck:moving_damage_sprinting",
+            "amount": 1.5
+        },
+        "tick_rate": 1,
+        "condition": {
+            "type": "origins:sprinting"
+        }
+    },
+    "flying": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Flying Damage",
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "ADD_VALUE",
+            "id": "bismarck:moving_damage_flying",
+            "amount": 3.5
+        },
+        "tick_rate": 1,
+        "condition": {
+            "type": "origins:fall_flying"
+        }
+    },
+    "sneaking": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Sneaking Damage",
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "ADD_VALUE",
+            "id": "bismarck:moving_damage_sneaking",
+            "amount": -1.0
+        },
+        "tick_rate": 1,
+        "condition": {
+            "type": "origins:sneaking"
+        }
+    }
+}

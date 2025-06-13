@@ -1,0 +1,14 @@
+{
+    "name": "Debuff",
+    "description": "Naturally Do Less Damage",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "Decrease Damage",
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "ADD_MULTIPLIED_BASE",
+            "id":"bismarck:attack_dmg",
+            "amount": -0.2
+        }
+    ]
+}

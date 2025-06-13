@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:bismarck/infinite_jump",
+        "primal:bismarck/water_breathing",
+        "primal:bismarck/moving_dmg",
+        "primal:bismarck/innate_damage_decrease"
+    ],
+    "icon": {"id": "minecraft:music_disc_wait"},
+    "order": 15,
+    "impact": 1,
+    "name": "Bismarck",
+    "description": "The Lord of the Mists\n\nThis guy is gonna be chill"
+}
