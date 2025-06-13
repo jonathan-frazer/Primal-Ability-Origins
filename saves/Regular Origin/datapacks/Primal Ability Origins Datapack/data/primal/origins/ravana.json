@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "primal:ravana/wings",
+        "primal:ravana/dual_weapon",
+        "primal:ravana/insect_friendly",
+        "primal:ravana/no_chest_armor"
+    ],
+    "icon": {"id": "minecraft:honeycomb"},
+    "order": 14,
+    "impact": 1,
+    "name": "Ravana",
+    "description": "The Lord of the Hive"
+}

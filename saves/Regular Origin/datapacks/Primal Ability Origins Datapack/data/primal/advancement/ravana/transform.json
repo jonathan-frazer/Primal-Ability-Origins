@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "chose_ravana": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "primal:ravana"
+            }
+        }
+    }
+}

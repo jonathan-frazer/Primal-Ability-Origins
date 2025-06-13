@@ -6,8 +6,8 @@
         "primal:zodiark/no_heal"
     ],
     "icon": {"id": "minecraft:snout_armor_trim_smithing_template"},
-    "order": 13,
-    "impact": 2,
+    "order": 12,
+    "impact": 1,
     "name": "Zodiark",
     "description": "The Eternal Darkness\n\nJoining the Ascians gives you access to untold powers"
 }

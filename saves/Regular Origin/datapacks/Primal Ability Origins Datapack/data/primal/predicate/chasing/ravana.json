@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": [
+      "minecraft:bee",
+      "minecraft:silverfish"
+    ],
+    "targeted_entity": {
+      "type": "minecraft:player",
+      "type_specific": {
+        "type": "minecraft:player",
+        "advancements": {
+          "primal:ravana/transform": true
+        }
+      }
+    }
+  }
+}

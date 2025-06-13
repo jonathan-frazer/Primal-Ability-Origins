@@ -1,0 +1,10 @@
+{
+    "name": "Debuff",
+    "description": "No chest armor cause permanent bug wings",
+    "type": "origins:restrict_armor",
+    "chest": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 0
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Permanent Elytra",
+    "description": "You have wings",
+    "type": "origins:elytra_flight",
+    "render_elytra": true
+}
