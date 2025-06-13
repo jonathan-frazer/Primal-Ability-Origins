@@ -6,5 +6,10 @@
         "type": "origins:execute_command",
         "command": "function primal:moggle_king/pom_holy/apply"
     },
-    "cooldown": 10
+    "cooldown": 2000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 24
+    }
 }

@@ -5,27 +5,32 @@
     "entity_action": {
         "type": "origins:and",
         "actions": [
-        {    
-            "type": "origins:apply_effect",
-            "effect": {
-                "id": "minecraft:levitation",
-                "amplifier": 47,
-                "duration": 6,
-                "is_ambient": false,
-                "show_particles": false,
-                "show_icon": false
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "id": "minecraft:levitation",
+                    "amplifier": 47,
+                    "duration": 6,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scoreboard players set @s titanGeoCrush 1"
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.bat.takeoff",
+                "volume": 1.5
             }
-        },
-        {    
-            "type": "origins:execute_command",
-            "command": "scoreboard players set @s titanGeoCrush 1"
-        },
-        {
-            "type": "origins:play_sound",
-            "sound": "minecraft:entity.bat.takeoff",
-            "volume": 1.5
-        }
-    ]
+        ]
     },
-    "cooldown": 120
+    "cooldown": 120,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 21
+    }
 }
