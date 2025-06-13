@@ -1,0 +1,17 @@
+{
+    "name": "Flight",
+    "description": "You have wings, no Chest armor allowed",
+    "type": "origins:multiple",
+    "wings": {
+        "type": "origins:elytra_flight",
+        "render_elytra": true
+    },
+    "no_chest": {
+        "type": "origins:restrict_armor",
+        "chest": {
+            "type": "origins:armor_value",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    }
+}

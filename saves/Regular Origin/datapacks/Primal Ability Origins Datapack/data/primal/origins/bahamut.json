@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "primal:bahamut/flight",
+        "primal:bahamut/dragon_scale",
+        "primal:bahamut/dragon_breath"
+    ],
+    "icon": {"id": "minecraft:coal"},
+    "order": 11,
+    "impact": 2,
+    "name": "Bahamut",
+    "description": "The Dreadwyrm"
+}

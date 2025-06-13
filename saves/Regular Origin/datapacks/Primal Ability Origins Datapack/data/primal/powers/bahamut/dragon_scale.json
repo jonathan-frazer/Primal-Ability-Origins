@@ -1,0 +1,21 @@
+{
+    "name": "Dragon Scale",
+    "description": "Armored and Tougher",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "Extra HP",
+            "attribute": "minecraft:generic.armor",
+            "operation": "ADD_VALUE",
+            "id":"bahamut:dragon_scale_armor",
+            "amount": 8.0
+        },
+        {
+            "name": "Immunity To fall Damage",
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "ADD_VALUE",
+            "id":"bahamut:dragon_scale_armor_toughness",
+            "amount": 4.0
+        }
+    ]
+}
